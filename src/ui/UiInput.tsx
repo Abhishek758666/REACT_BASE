@@ -43,7 +43,6 @@ export default function UIInput({
   style,
   onClick,
   onChange,
-  onWheel,
   error,
   defaultValue,
   instruction,

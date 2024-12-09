@@ -30,7 +30,6 @@ interface UISelectProps {
 export default function UISelect({
   id,
   label,
-  name,
   isRequired,
   placeholder = "Select",
   error,
