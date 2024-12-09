@@ -1,5 +1,3 @@
-"use client";
-
 import { NepaliDatePicker } from "nepali-datepicker-reactjs";
 import {
   CSSProperties,

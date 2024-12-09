@@ -1,5 +1,4 @@
-"use client";
-import React, {
+import {
   ChangeEvent,
   KeyboardEvent,
   ReactNode,
@@ -10,7 +9,7 @@ import React, {
 
 export interface UISelectOption {
   value: string;
-  displayValue?: ReactNode;
+  displayValue?: ReactNode | string;
   search?: string;
 }
 

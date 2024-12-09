@@ -31,15 +31,13 @@ export default function UIModal({
         style={style}
         ref={modalRef}
       >
-        {/* Close Button */}
         <button
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+          className="absolute top-[10rem] right-[10rem] text-gray-200 hover:text-gray-700 cursor-pointer text-4xl"
           onClick={handleCancel}
           aria-label="Close Modal"
         >
           <i className="fa-solid fa-times"></i>
         </button>
-        {/* Modal Content */}
         <div className="p-6">{children}</div>
       </div>
     </div>
